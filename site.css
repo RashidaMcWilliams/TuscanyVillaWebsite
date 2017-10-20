@@ -1,0 +1,151 @@
+﻿* {
+    /*background-color: #474E5D;*/
+    /*font-family: 'Noto Sans', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Cairo', sans-serif;*/
+}
+
+/*a:hover {
+    color: #252931;
+}
+
+a:visited {
+    color: #0235A2;
+}*/
+
+body {
+    padding-top: 0px;
+    background-color: #474E5D;
+}
+
+.navbar {
+    color: #FFFFFF;
+    border-color: none;
+    border: none;
+    background-color: #474E5D;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: large;
+    padding-top: 10px;
+}
+
+.navbar-brand {
+    font-size: x-large;
+}
+
+div.container {
+    padding: 0px;
+    background-color: #474E5D;
+}
+
+div.jumbotron {
+    padding: 0px;
+    background-color: #474E5D;
+}
+
+.row {
+    padding: 0px;
+    background-color: #474E5D;
+    border: none;
+}
+
+.col-xs-12.col-md-8 {
+    background-image: url(Content/tuscany-villas-sant-anna.jpg);
+    margin: auto;
+    padding: 0px;
+    border: none;
+    height: 350px;
+    background-color: #474E5D;
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.col-xs-6.col-md-4 {
+    background-image: url(Content/Versilia.jpg);
+    margin: auto;
+    padding: 0px;
+    border: none;
+    height: 350px;
+    background-color: #474E5D;
+    background-size: cover;
+}
+
+.sections {
+    background-color: #474E5D;
+    color: #FFFFFF;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.sections>h1 {
+    font-size: 42px;
+}
+
+.sections>h3 {
+    font-size: 36px;
+    padding-bottom: 50px;
+}
+
+.white {
+    background-color: #FFFFFF;
+    color: #474E5D;
+    height: 500px;
+    padding: 50px;
+    padding-top: 100px;
+}
+
+.blue {
+    background-color: #474E5D;
+    color: #FFFFFF;
+    height: 500px;
+    padding: 50px;
+    padding-top: 100px;
+}
+
+img.right {
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 300px;
+    width: 500px;
+    padding: 0px;
+    float: right;
+    clear: right;
+}
+
+img.left {
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 300px;
+    width: 500px;
+    padding: 0px;
+    float: left;
+    clear: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.blue-button {
+    background-color: #474E5D;
+    color: #FFFFFF;
+    border-color: none;
+    background-image: none;
+}
+
+.white-button {
+    background-color: #FFFFFF;
+    color: #474E5D;
+    border-color: none;
+    background-image: none;
+}
+
+.col-sm-4 {
+    background-color: #FFFFFF;
+}
+
