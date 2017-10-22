@@ -149,3 +149,80 @@ img.left {
     background-color: #FFFFFF;
 }
 
+.col-sm-4 {
+    height: 300px;
+    /*width: 300px;*/
+}
+
+.pictures1 {
+    background-image: url(Content/3b-348x348.jpg);
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.pictures2 {
+    background-image: url(Content/42-348x348.jpg);
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 125px;
+}
+
+.pictures3 {
+    background-image: url(Content/314-348x348.jpg);
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 125px;
+}
+
+.pictures4 {
+    background-image: url(Content/Villa-Rucellai-Toscani-2812-2-348x348.jpg);
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 125px;
+}
+
+.pictures5 {
+    background-image: url(Content/Villa-Vanna-231-348x348.jpg);
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 125px;
+}
+
+.words {
+    background-color: #FFFFFF;
+    color: #474E5D;
+    text-align: center;
+}
+
+
+/*.inset {
+    height: 125px;
+    width: 200px;
+    padding: 0px;
+    background-color: rgba(105, 95, 83, 0.6);
+    text-align: center;
+}*/
+
+#myCarousel {
+    background-color: #FFFFFF;
+    color: #474E5D;
+    height: 200px;
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 50px;
+    font-style: italic;
+}
+
+
+footer {
+    background-color: #474E5D;
+    padding: 25px;
+    color: #FFFFFF;
+}
