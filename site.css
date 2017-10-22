@@ -15,38 +15,64 @@ a:visited {
 
 body {
     padding-top: 0px;
-    background-color: #474E5D;
 }
 
 .navbar {
     color: #FFFFFF;
     border-color: none;
     border: none;
+    border-radius: 0px;
     background-color: #474E5D;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 500;
     font-size: large;
     padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .navbar-brand {
     font-size: x-large;
 }
 
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 div.container {
     padding: 0px;
     background-color: #474E5D;
+    margin: 0px;
 }
 
 div.jumbotron {
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #474E5D;
+    border-radius: 0px;
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.jumbotron {
     padding: 0px;
     background-color: #474E5D;
+    margin: 0px;
 }
+
 
 .row {
     padding: 0px;
     background-color: #474E5D;
     border: none;
+    margin: 0px;
 }
 
 .col-xs-12.col-md-8 {
@@ -145,6 +171,13 @@ img.left {
     background-image: none;
 }
 
+div.container.amenities {
+    background-color: #FFFFFF;
+    margin-left: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
 .col-sm-4 {
     background-color: #FFFFFF;
 }
@@ -220,9 +253,36 @@ img.left {
     font-style: italic;
 }
 
+div.container-fluid.white-form {
+    background-color: #FFFFFF;
+    color: #474E5D;
+    border-color: none;
+    background-image: none;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
 
-footer {
+div.row.info {
+    background-color: #FFFFFF;
+    color: #474E5D;
+    padding-left: 50px;
+}
+
+div.row.uform {
+    background-color: #FFFFFF;
+    color: #474E5D;
+}
+
+footer.container-fluid.text-center {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 75px;
+    margin-right: auto;
+    margin-left: auto;
     background-color: #474E5D;
-    padding: 25px;
     color: #FFFFFF;
+    font-size: 18px;
+    font-weight:500;
+    height: 200px;
+}
 }
