@@ -1,5 +1,4 @@
 ﻿* {
-    /*background-color: #474E5D;*/
     /*font-family: 'Noto Sans', sans-serif;
     font-family: 'Fjalla One', sans-serif;
     font-family: 'Cairo', sans-serif;*/
@@ -68,7 +67,7 @@ div.jumbotron {
 }
 
 
-.row {
+.jumbotron.row {
     padding: 0px;
     background-color: #474E5D;
     border: none;
@@ -180,11 +179,7 @@ div.container.amenities {
 
 .col-sm-4 {
     background-color: #FFFFFF;
-}
-
-.col-sm-4 {
     height: 300px;
-    /*width: 300px;*/
 }
 
 .pictures1 {
@@ -192,7 +187,6 @@ div.container.amenities {
     background-size: cover;
     color: #FFFFFF;
     text-align: center;
-    padding-top: 150px;
 }
 
 .pictures2 {
@@ -200,7 +194,6 @@ div.container.amenities {
     background-size: cover;
     color: #FFFFFF;
     text-align: center;
-    padding-top: 125px;
 }
 
 .pictures3 {
@@ -208,7 +201,6 @@ div.container.amenities {
     background-size: cover;
     color: #FFFFFF;
     text-align: center;
-    padding-top: 125px;
 }
 
 .pictures4 {
@@ -216,7 +208,6 @@ div.container.amenities {
     background-size: cover;
     color: #FFFFFF;
     text-align: center;
-    padding-top: 125px;
 }
 
 .pictures5 {
@@ -224,7 +215,26 @@ div.container.amenities {
     background-size: cover;
     color: #FFFFFF;
     text-align: center;
+}
+
+.amenities-detail {
     padding-top: 125px;
+}
+
+.inset {
+    height: 125px;
+    width: 200px;
+    padding-top: 0px;
+    padding-left: 100px;
+    padding-right: 50px;
+    background-color: rgba(105, 95, 83, 0.6);
+    margin-left: 100px;
+    margin-top: -100px;
+}
+
+.pictures1.amenities-detail {
+    margin-top: -50px;
+    padding-top: 10px;
 }
 
 .words {
@@ -232,15 +242,6 @@ div.container.amenities {
     color: #474E5D;
     text-align: center;
 }
-
-
-/*.inset {
-    height: 125px;
-    width: 200px;
-    padding: 0px;
-    background-color: rgba(105, 95, 83, 0.6);
-    text-align: center;
-}*/
 
 #myCarousel {
     background-color: #FFFFFF;
@@ -289,6 +290,8 @@ div.row.info {
 div.row.uform {
     background-color: #FFFFFF;
     color: #474E5D;
+    margin-left:0px;
+    margin-right: 0px;
 }
 
 div.col-sm-6.form-group {
