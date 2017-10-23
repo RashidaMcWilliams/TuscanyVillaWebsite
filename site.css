@@ -253,6 +253,24 @@ div.container.amenities {
     font-style: italic;
 }
 
+ol.carousel-indicators {
+    color: #474E5D;
+}
+
+.carousel-indicators li {
+    color: #474E5D;
+    border: 5px solid #474E5D;
+    border-radius: 25px;
+}
+
+.carousel-control.left {
+    background-image: none;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
 div.container-fluid.white-form {
     background-color: #FFFFFF;
     color: #474E5D;
@@ -273,6 +291,14 @@ div.row.uform {
     color: #474E5D;
 }
 
+div.col-sm-6.form-group {
+    padding: 5px;
+}
+
+div.col-sm-6.form-group.right-email {
+    float:right;
+}
+
 footer.container-fluid.text-center {
     padding-right: 0px;
     padding-left: 0px;
@@ -285,4 +311,10 @@ footer.container-fluid.text-center {
     font-weight:500;
     height: 200px;
 }
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
 }
+
